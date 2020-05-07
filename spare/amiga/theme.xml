@@ -1,0 +1,22 @@
+<theme>
+
+    <formatVersion>4</formatVersion>
+    <include>./../spare.xml</include>
+    
+    <view name="system">
+        <image name="background_color" extra="true">
+            <path>./bg_pi.jpg</path>
+                <origin>0 0</origin>
+                <pos>0 0 </pos>
+                <size>1 1</size>
+        </image>
+
+        <image name="logo">
+            <path>./pi.png</path>
+        </image>
+    </view>
+    <view name="basic"></view>
+    <view name="detailed"></view>
+    <view name="video"></view>
+    
+</theme>

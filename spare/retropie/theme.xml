@@ -1,0 +1,30 @@
+<theme>
+
+    <formatVersion>4</formatVersion>
+    <include>./../spare.xml</include>
+    
+    <view name="system">
+		<image name="background_color" extra="true">
+            <path>./bg_settings.jpg</path>
+                <origin>0 0</origin>
+                <pos>0 0 </pos>
+                <size>1 1</size>
+		</image>
+		
+        <image name="logo">
+            <path>./settings.png</path>
+		</image>
+		
+    </view>
+    <view name="basic"></view>
+    <view name="detailed">
+		<image name="logo">
+            <path>./settings2.png</path>
+            <origin>0.5 0.5</origin>
+	        <pos>0.186 0.14</pos>
+	        <maxSize>0.33 0.19</maxSize>
+        </image>
+	</view>
+    <view name="video"></view>
+    
+</theme>
